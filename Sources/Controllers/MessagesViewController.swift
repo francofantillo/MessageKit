@@ -156,7 +156,7 @@ UICollectionViewDelegateFlowLayout, UICollectionViewDataSource {
         messagesCollectionView.dataSource = self
     }
 
-    private func setupSubviews() {
+    public func setupSubviews() {
         view.addSubview(messagesCollectionView)
     }
 
